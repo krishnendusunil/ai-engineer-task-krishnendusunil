@@ -1,0 +1,52 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 1,
+  "required_documents": 5,
+  "missing_documents": [
+    "Memorandum of Association",
+    "Incorporation Application Form",
+    "UBO Declaration Form",
+    "Register of Members and Directors"
+  ],
+  "per_file_results": [
+    {
+      "file": "uploads\\test_aoa.docx",
+      "doc_type": "Articles of Association",
+      "reviewed_file": "reviewed\\reviewed_test_aoa.docx",
+      "issues": [
+        {
+          "document_section": "Clause 3.1 — Jurisdiction",
+          "issue": "Wrong jurisdiction reference",
+          "severity": "High",
+          "suggestion": "Correct to \"Abu Dhabi Global Market (ADGM)\" instead of \"United Arab Emirates Federal Courts\".  The company is governed by the laws of the ADGM, not the UAE Federal Courts.",
+          "source_reference": "ADGM Companies Regulations",
+          "paragraph_index": 3
+        },
+        {
+          "document_section": "Clause 4.2 — Share Capital",
+          "issue": "Missing required clause details",
+          "severity": "High",
+          "suggestion": "The Articles of Association must specify the authorized share capital.  The Board cannot determine this; it must be pre-defined.",
+          "source_reference": "ADGM Companies Regulations (Articles of Association template)",
+          "paragraph_index": 6
+        },
+        {
+          "document_section": "Clause 5.3 — Signatories",
+          "issue": "Missing required signatures",
+          "severity": "High",
+          "suggestion": "Obtain and include the official signatures of all shareholders as required by ADGM regulations.",
+          "source_reference": "ADGM Resolutions of Shareholders template and  Companies Regulations",
+          "paragraph_index": 9
+        },
+        {
+          "document_section": "Overall",
+          "issue": "Non-compliance with ADGM templates",
+          "severity": "Medium",
+          "suggestion": "Ensure the Articles of Association comply with the ADGM provided template or provide justification for any deviations, demonstrating compliance with the ADGM Companies Regulations.",
+          "source_reference": "ADGM Companies Regulations and available templates on www.registration.adgm.com",
+          "paragraph_index": 0
+        }
+      ]
+    }
+  ]
+}
