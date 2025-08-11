@@ -1,0 +1,10 @@
+streamlit
+python-docx
+sentence-transformers
+faiss-cpu
+openai
+python-dotenv
+langchain
+tqdm
+PyMuPDF
+tabulate
